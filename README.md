@@ -1,6 +1,6 @@
 # npmtest-through2
 
-#### test coverage for  [through2 (v2.0.3)](https://github.com/rvagg/through2#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-through2.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-through2) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-through2.svg)](https://travis-ci.org/npmtest/node-npmtest-through2)
+#### basic test coverage for  [through2 (v2.0.3)](https://github.com/rvagg/through2#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-through2.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-through2) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-through2.svg)](https://travis-ci.org/npmtest/node-npmtest-through2)
 
 #### A tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-through2/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-through2/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-through2/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-through2/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-through2/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-through2/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-through2/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-through2/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-through2/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-through2/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-through2/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-through2/build/coverage.html/index.html)
 
@@ -86,7 +86,8 @@
         "test": "node test/test.js | faucet",
         "test-local": "brtapsauce-local test/basic-test.js"
     },
-    "version": "2.0.3"
+    "version": "2.0.3",
+    "bin": {}
 }
 ```
 
